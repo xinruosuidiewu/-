@@ -1,0 +1,39 @@
+<!--参考以下示例代码，页面加载后，将提供的空气质量数据
+数组，按照某种逻辑进行过滤筛选（比如空气质量大于60），
+最后将符合条件的数据按照一定的格式要求显示在网页上-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IFE JavaScript Task14</title>
+</head>
+<body>
+	<h3>污染城市列表</h3>
+	<ul id="aqi-list">
+		
+	</ul>
+
+	<script type="text/javascript">
+		var aqiData=[
+			["北京",90],
+			["上海",50],
+			["福州",10],
+			["广州",50],
+			["成都",90],
+			["西安",100]
+		];
+		  /*
+		  遍历读取aqiData中各个城市的数据
+		  将空气质量指数大于60的城市显示到aqi-list的列表中
+		  */
+		for(var i=0;i<aqiData.length;i++){
+			if(aqiData[i][1]>60){
+				var citys=document.createElement('li');
+				citys.innerText=aqiData[i][0]+':'+aqiData[i][1];
+				var liebiao=document.getElementById('aqi-list');
+				liebiao.appendChild(citys);
+			}
+		}
+	</script>
+</body>
+</html>
