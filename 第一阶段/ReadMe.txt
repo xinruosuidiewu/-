@@ -1,1 +1,1 @@
-Task2的效果预览地址：https://xinruosuidiewu.github.io/baidu_web_practice/Task2.html
+Task2 preview：https://xinruosuidiewu.github.io/baidu_web_practice/Task2.html
