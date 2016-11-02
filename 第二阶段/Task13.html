@@ -1,0 +1,23 @@
+<!--本任务完成的功能为：用户在输入框中输入任何内容，点击“确认填写”后，用户输入的内容会显示在“您输入的值是”文字的右边-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IFE JavaScript Task 01</title>
+</head>
+<body>
+	<label>请输入北京今天空气质量：<input type="text" id="aqi-input"></label>
+	<button id="button" onclick="showinput()">确认填写</button>
+
+	<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+	<script type="text/javascript">
+		function showinput(){
+			/*给按钮绑定一个点击事件，在事件处理函数中获取aqi-input输入的值，并显示在aqi-display中*/
+			var aqinput=document.getElementById('aqi-input');
+			var aqidisplay=document.getElementById('aqi-display');
+			aqidisplay.innerText=aqinput.value;
+		}
+	</script>
+</body>
+</html>
