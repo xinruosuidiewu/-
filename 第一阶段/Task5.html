@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task5</title>
+	<link rel="stylesheet" type="text/css" href="style/Task5.css">
+</head>
+<body>
+<!--role的作用是描述一个非标准的tag的实际作用-->
+	<header role="banner">
+		<h1><a href="#"><img src="picture/百度.png" width="8%" height="8%"></a></h1>
+		<nav role="navigation">
+			<ul>
+				<li><a href="#" target="_blank">导航链接一</a></li>
+				<li><a href="#" target="_blank">导航链接二</a></li>
+				<li><a href="#" target="_blank">导航链接三</a></li>
+				<li><a href="#" target="_blank">导航链接四</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<aside role="complementary">
+		<h4>这里以后是一个侧栏，这是侧栏的标题</h4>
+		<form>
+			<div>
+                <label class="tips">请输入邮箱地址</label>
+
+                <input type="text" placeholder="邮箱" />
+                <p >邮箱地址请按要求格式输入</p>
+            </div>
+            
+            <div>
+                <label class="tips" >请输入密码</label>
+                <input type="password" placeholder="******"  />
+            </div>
+            
+            <div>
+                <label class="tips">请重复输入密码</label>
+                <input type="password" placeholder="******" />
+                <p >密码请为6-16位英文数字</p>
+            </div>
+		</form>
+		
+		
+		<form action="save.php" method="post">
+		<div>
+			<label class="tips">性别：</label>
+			<input type="radio" value="male" name="sex" checked>
+			<label>男</label>
+			<input type="radio" value="female" name="sex">
+			<label>女</label>
+		</div>
+			
+		<div>
+			<label class="tips">城市：</label>
+			<select>
+				<option value="上海">上海</option>
+				<option value="北京" selected>北京</option>
+				<option value="天津">天津</option>
+			</select>
+		</div>
+			
+		<div>
+			<label class="tips">爱好：</label>
+			<input type="checkbox" value="sport" name="hobby">
+			<label>运动</label>
+			<input type="checkbox" value="art" name="hobby">
+			<label>艺术</label>
+			<input type="checkbox" value="science" name="hobby">
+			<label>科学</label>
+		</div>
+			
+		<div>
+			<label class="tips">个人描述：</label>
+			<textarea rows="2" cols="20">设施一个多行输入框，输入您的个人描述</textarea>
+			<input type="button" value="确认提交" class="buttonsubmit">
+		</div>
+		</form>
+	</aside>
+
+	<main role="main">
+		<article>
+			<h2>文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span class="author">文章作者</span><span class="time">文章发表时间</span>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://news.163.com">这里有一个链接</a> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</p>
+			<img src="picture/春暖花开.jpg">
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://news.163.com" target="_blank">这里有一个链接</a> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</p>
+		</article>
+
+		<article>
+			<h2>另一篇文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span class="author">文章作者</span><span class="time">文章发表时间</span>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://news.163.com">这里有一个链接</a> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</p>
+			<img src="picture/春暖花开.jpg">
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
+
+			<h2>图片</h2>
+			<dl>
+				<dt></dt>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+				<dd><span>好看的图片</span><br><img src="picture/春暖花开.jpg"></dd>
+			</dl>
+		</article>
+
+		<article>
+			<h2>最后一篇文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span>文章作者</span><span>文章发表时间</span>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p class="houtui">下面是一个表格，给表格加了一个border="1"号让你看出是一个表格</p>
+			<table border="1">
+				<tr><th>表头</th><th>表头</th><th>表头</th></tr>
+				<tr><td>表内容单元格</td><td>表内容单元格</td><td>操作</td></tr>
+				<tr><td>表内容单元格</td><td>表内容单元格</td><td>操作</td></tr>
+				<tr><td>表内容单元格</td><td>表内容单元格</td><td>操作</td></tr>
+				<tr><td>表内容单元格</td><td>表内容单元格</td><td>操作</td></tr>
+				<tr id="foot"><td>总计</td><td colspan="2">1000</td></tr>
+			</table>
+		</article>
+	</main>
+
+	
+
+	<footer role="contentinfo">
+		<p>版权所有ⓒhollowtree</p>
+	</footer>
+</body>
+</html>
