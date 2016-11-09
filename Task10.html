@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task10-Flexbox</title>
+	<style type="text/css">
+		*{
+			
+			padding: 20px;
+			margin: 0px;
+		}
+
+		.contanier{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex: none;
+			box-sizing: border-box;
+			border: 1px gray solid;
+		}
+
+		.rect{
+			width: 150px;
+			border: 1px #f00 solid;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+			
+		}
+
+		.four{
+			border: 1px #00f solid;
+		}
+
+		@media screen and (max-width: 640px) {
+			.contanier{
+				flex-wrap: wrap;
+				align-items: flex-start;
+			}
+
+			.four{
+				order: -1;
+			}
+		}
+	</style>
+<body>
+	<div class="contanier">
+		<div class="rect one" style="height:120px">1</div>
+		<div class="rect two" style="height:100px">2</div>
+		<div class="rect three" style="height:40px">3</div>
+		<div class="rect four" style="height:200px;border:1px #00f solid;">4</div>
+	</div>
+</body>
+</html>
