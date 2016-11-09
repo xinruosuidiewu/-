@@ -23,5 +23,5 @@ Task6
 preview ---  https://xinruosuidiewu.github.io/baidu_web_Task/Task6.html
 
 Task10
-用flex进行响应式布局
+用flex进行响应式布局，屏幕宽度小于 640px 时，调整 Flexbox 的属性以实现第四个元素移动到最前面的效果，而不要改动第一个元素的边框颜色与高度实现效果图
 preview ---  https://xinruosuidiewu.github.io/baidu_web_Task/Task10.html
