@@ -21,6 +21,7 @@ preview ---  https://xinruosuidiewu.github.io/baidu_web_Task/Task5.html
 Task6
 按照设计稿，实现效果
 preview ---  https://xinruosuidiewu.github.io/baidu_web_Task/Task6.html
+	     https://xinruosuidiewu.github.io/baidu_web_Task/Task06.1.html
 
 Task8
 使用 HTML 与 CSS 实现类似 BootStrap 的响应式 12 栏网格布局，根据屏幕宽度，元素占的栏数不同。

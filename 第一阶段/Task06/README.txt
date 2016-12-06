@@ -15,3 +15,5 @@
 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
 
 预览地址：preview ---  https://xinruosuidiewu.github.io/baidu_web_Task/Task6.html
+
+		       https://xinruosuidiewu.github.io/baidu_web_Task/Task06.1.html
