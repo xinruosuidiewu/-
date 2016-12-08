@@ -68,6 +68,11 @@ article h3{
 	font-size: 16px;
 }
 
+.img_set{
+	width: 600px;
+	height: 480px;
+}
+
 /*span为行距元素，不可设置宽高*/
 .author, .time{
 	line-height: 30px;
